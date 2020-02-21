@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Post } from '../../../view_model/post';
 import { PostService } from '../../../service/post.service';
-import {  FileUploader, FileSelectDirective } from 'ng2-file-upload/ng2-file-upload';
+import {  FileUploader, FileSelectDirective } from 'ng2-file-upload';
 import { ToastService } from 'src/app/service/toast.service';
 
 

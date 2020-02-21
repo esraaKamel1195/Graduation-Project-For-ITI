@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Owner } from '../../../view_model/owner';
 import { OwnerService } from '../../../service/owner.service';
-import {  FileUploader, FileSelectDirective } from 'ng2-file-upload/ng2-file-upload';
+import {  FileUploader, FileSelectDirective } from 'ng2-file-upload';
 import { ToastService } from 'src/app/service/toast.service';
 import { FormLoginValidation } from '../../customValidation/custValidation';
 

@@ -4,7 +4,7 @@ import { FormLoginValidation } from '../../customValidation/custValidation';
 import { FormRegisterService } from 'src/app/service/form-register.service';
 import { Student } from 'src/app/view_model/student';
 import { Owner } from 'src/app/view_model/owner';
-import { FileUploader, FileSelectDirective } from 'ng2-file-upload/ng2-file-upload';
+import { FileUploader, FileSelectDirective } from 'ng2-file-upload';
 import { ToastService } from 'src/app/service/toast.service';
 import { Router } from '@angular/router';
 

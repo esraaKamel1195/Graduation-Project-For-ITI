@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Student } from '../../../view_model/student';
 import { StudentService } from '../../../service/student.service';
-import { FileUploader, FileSelectDirective } from 'ng2-file-upload/ng2-file-upload';
+import { FileUploader, FileSelectDirective } from 'ng2-file-upload';
 import { FormLoginValidation } from '../../customValidation/custValidation';
 
 
